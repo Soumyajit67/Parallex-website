@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1{  background-image: url(mountains.jpg);
+          min-height: 100%;
+
+}
+.img2{  background-image: url(sea.jpg);
+    min-height: 100%;
+}
+
+
+.img3{  background-image: url(nature.jpg);
+    min-height: 100%;
+
+}
+
+
+.img1,.img2,.img3{
+  
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.bg{
+    background-color: #2b2e2e;
+    color: white;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.sec-light{
+    background-color: #f4f4f4;
+    color:#666;
+}
+.sec-dark{
+    background-color: #1b1c1d;
+    color:#ddd;
+}
